@@ -6,9 +6,5 @@ export const metadata = {
 };
 
 export default function RegisterPage() {
-  return (
-    <div className="flex min-h-screen items-center justify-center p-4 bg-background">
-      <RegisterForm />
-    </div>
-  );
+  return <RegisterForm />;
 }
